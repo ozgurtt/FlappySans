@@ -1,7 +1,9 @@
 var mainState = {
     preload: function () {
+		//LOAD ALL GAME SPRITES, sansdead is not used yet
+		
         game.load.image('sans', 'assets/sans.png');
-        game.load.image('sansdead', 'assets/sans-dead.png');
+        //game.load.image('sansdead', 'assets/sans-dead.png');
         game.load.image('chara', 'assets/chara.png');
         game.load.audio('jump', 'assets/jump.mp3');
     },
